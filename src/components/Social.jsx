@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom'
 function Social() {
   return (
     <div className='socialLinks'>
-        <Link target="_blank" rel="noreferrer" src='https://github.com/AmJann'><img className='socialButton' src={github}></img></Link>
-        <Link target="_blank" rel="noreferrer" src='https://www.linkedin.com/in/amber-jankowski/'><img className='socialButton' src={linkedin}></img></Link>
-        <Link target="_blank" rel="noreferrer" src={resume}><img className='socialButton' src={resumeIcon}></img></Link>
+        <Link target="_blank" rel="noreferrer" to='https://github.com/AmJann'><img className='socialButton' src={github}></img></Link>
+        <Link target="_blank" rel="noreferrer" to='https://www.linkedin.com/in/amber-jankowski/'><img className='socialButton' src={linkedin}></img></Link>
+        <Link target="_blank" rel="noreferrer" to={resume}><img className='socialButton' src={resumeIcon}></img></Link>
     </div>
   )
 }
