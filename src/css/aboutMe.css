@@ -1,0 +1,50 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .aboutMeContainer{
+    flex-direction: column;
+    padding:2vh 20vw 0 3vw ;
+    margin-top: 7vh;
+    text-align:left;
+  }
+
+  .fontSize{
+    font-size:5vh;
+  }
+   .FirstLetter{
+    font-size: 2vh;
+    font-weight: 600;
+   }
+
+   .myImageContainer{
+    margin-left: 15vw;
+
+   }
+   .myImage{
+    width:20vw;
+    border-radius: 50vw;
+   }
+
+   .imgAboutContainer{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    margin-top: 12.5vh;
+   }
+
+   .tag{
+    text-align: center;
+    margin:11.5vh 30vw 0 20vw;
+    color: rgb(44, 44, 44);
+    font-size: 3vh;
+    background-color: rgb(247, 230, 233);
+   }

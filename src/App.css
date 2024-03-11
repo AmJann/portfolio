@@ -1,0 +1,14 @@
+
+body{
+  background-image: url('images/portfolio-background4.png');
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size:cover;
+  -webkit-text-size-adjust:auto; 
+  /* padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); */
+  
+}
+footer{
+
+}
+

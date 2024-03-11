@@ -1,0 +1,12 @@
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4vh;
+
+}
+.socialButton{
+    border-radius: 5vw;
+    margin-left: 1vw;
+    height: 10vh;
+}
