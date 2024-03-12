@@ -13,8 +13,8 @@ function AboutMe() {
         ></img>
       </div>
       <div className="aboutMeContainer">
-        <h1 className="abril-fatface-regular fontSize ">Amber Jankowski</h1>
-        <h3 className="lato-regular">
+        <h1 className="abril-fatface-regular fontSize name">My Story</h1>
+        <h3 className="lato-regular paragraph">
           <span className="firstLetter">I</span> successfully completed the
           Full-stack Software Engineering Immersive program at General Assembly,
           an intensive 24-week, 450+ hour curriculum, graduating in July 2022.
@@ -26,13 +26,13 @@ function AboutMe() {
         <h3>
           _________________________________________________________________
         </h3>
-        <h3 className="lato-regular">
-          <span className="firstLetter">P</span>resently, I am serving as an
-          apprentice at Underdog Developers, where I am fortunate to be mentored
-          by some of the industry's finest professionals. Engaging in
-          challenging one-on-one paired programming sessions with senior
-          engineers from leading companies has been an invaluable aspect of my
-          learning experience.
+        <h3 className="lato-regular paragraph">
+          <span className="firstLetter">P</span>resently, I am an apprentice at
+          Underdog Developers, where I am fortunate to be mentored by some of
+          the industry's finest professionals. Engaging in challenging
+          one-on-one paired programming sessions with senior engineers from
+          leading companies has been an invaluable aspect of my learning
+          experience.
         </h3>
       </div>
     </div>

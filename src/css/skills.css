@@ -1,0 +1,28 @@
+.stamp{
+
+        transform: rotate(-14deg);
+          color: #2c2c2c;
+          font-size: 4vw;
+          font-weight: 700;
+          border: 0.5rem solid #2c2c2c;
+          display: inline-block;
+          margin-top: 40vh;;
+          padding: 0.25rem 1rem;
+          text-transform: uppercase;
+          border-radius: 1rem;
+          font-family: 'Courier';
+          -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+        -webkit-mask-size: 944px 604px;
+        mix-blend-mode: multiply;
+        margin-left: 10vw;
+    
+}
+
+.skillsContainer{
+    background-color:rgb(234, 138, 115, .8) ;
+    margin: 0 10vw;
+    display: flex;
+    border-radius: .5vw;
+  
+}
+

@@ -12,18 +12,18 @@
 
   .aboutMeContainer{
     flex-direction: column;
-    padding:2vh 20vw 0 3vw ;
+    padding:1vh 20vw 0 3vw ;
     margin-top: 7vh;
     text-align:left;
   }
 
   .fontSize{
-    font-size:5vh;
+    font-size:6vh;
   }
-   .FirstLetter{
+   /* .FirstLetter{
     font-size: 2vh;
     font-weight: 600;
-   }
+   } */
 
    .myImageContainer{
     margin-left: 15vw;
@@ -32,6 +32,7 @@
    .myImage{
     width:20vw;
     border-radius: 50vw;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
    }
 
    .imgAboutContainer{
@@ -47,4 +48,14 @@
     color: rgb(44, 44, 44);
     font-size: 3vh;
     background-color: rgb(247, 230, 233);
+    padding:.5vh;
+    margin-bottom: 100vh;
+   }
+
+   .name{
+    margin-top: 5vh;
+   }
+
+   .paragraph{
+    font-size: 3vh;
    }
