@@ -4,6 +4,7 @@ import Social from "./components/Social";
 import Tagline from "./components/Tagline";
 import Title from "./components/Title";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Social />
       <AboutMe />
       <Skills />
-      {/* <Tagline /> */}
+      <Projects />
+      <Tagline />
     </>
   );
 }

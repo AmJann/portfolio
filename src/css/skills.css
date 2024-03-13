@@ -6,7 +6,7 @@
           font-weight: 700;
           border: 0.5rem solid #2c2c2c;
           display: inline-block;
-          margin-top: 40vh;;
+          margin-top: 35vh;;
           padding: 0.25rem 1rem;
           text-transform: uppercase;
           border-radius: 1rem;
@@ -20,7 +20,7 @@
 
 .skillsContainer{
     background-color:rgb(234, 138, 115, .8) ;
-    margin: 0 10vw;
+    margin: 0 10vw 0vh 10vw;
     display: flex;
     border-radius: .5vw;
   

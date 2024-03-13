@@ -44,12 +44,12 @@
 
    .tag{
     text-align: center;
-    margin:11.5vh 30vw 0 20vw;
+    margin:0 30vw 0 20vw;
     color: rgb(44, 44, 44);
     font-size: 3vh;
     background-color: rgb(247, 230, 233);
     padding:.5vh;
-    margin-bottom: 100vh;
+    margin-bottom: 35vh;
    }
 
    .name{
