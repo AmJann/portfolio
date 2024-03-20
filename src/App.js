@@ -13,7 +13,6 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
-      <Tagline />
     </>
   );
 }

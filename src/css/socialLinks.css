@@ -8,31 +8,82 @@
 .socialButton{
     border-radius: 5vw;
     margin-left: 1vw;
-    height: 10vh;
+    height: 5vh;
+    color: #f8f4f4;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .fontSizeTitleName{
 font-size: 4em;
 text-align: center;
-background-color: rgb(243, 103, 129);
 padding:0 .5em;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+color:#f8f4f4;
+/* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
 }
 
 .fontSizeTitle{
 font-size: 3em;
 text-align: center;
-background-color: rgb(247, 230, 233);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+color:#f8f4f4;
+/* background-color: rgb(247, 230, 233); */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
 }
 
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .title{
-margin-right: 40vw;
+display: flex;
+flex-direction: column;
+justify-self: center;
+margin-left:30%;
+}
+
+.header{
+    background-image: linear-gradient( rgb(192, 128, 128),rgb(230, 230, 230) );
+}
+
+
+
+.socialButton:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+    background-color: #f8f4f4;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.socialButton:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.socialButton:after {
+background-color:rgb(234, 138, 115, .8);
+}
+
+.socialButton span {
+  z-index: 1;
+  position: relative;
+}
+
+.socialButton:hover{
+color:rgba(136, 136, 136, 0.8) ;
+}
+
+.subHeaderContainer{
+    display: inline-flex;
+    justify-content: space-between;
+    width:71%;
+    border:1px solid red
 }

@@ -1,15 +1,17 @@
 
 body{
-  background-image: url('images/portfolio-background4.png');
+  /* background-image: url('images/black-paint-border.png'); */
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #f8f4f4;
   background-size:cover;
   -webkit-text-size-adjust:auto; 
+  
   /* padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); */
   
 }
 footer{
   height:20vh;
 }
+
 
 

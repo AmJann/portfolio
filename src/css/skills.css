@@ -6,7 +6,7 @@
           font-weight: 700;
           border: 0.5rem solid #2c2c2c;
           display: inline-block;
-          margin-top: 35vh;;
+          margin-top: 5vh;;
           padding: 0.25rem 1rem;
           text-transform: uppercase;
           border-radius: 1rem;
@@ -26,3 +26,52 @@
   
 }
 
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skillsTitle{
+  font-size: 6vh;
+  margin: 0 10vw 0 10vw;
+}
+
+
+.skillsContainer{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.skillsContainer:after {
+  content: "";
+  background-color: rgb(234, 138, 115, .8);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.skillsContainer:hover:after {
+  top: 0px;
+  left: 0px;
+}

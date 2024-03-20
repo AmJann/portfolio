@@ -1,0 +1,77 @@
+.stamp{
+
+    transform: rotate(-14deg);
+      color: #2c2c2c;
+      font-size: 4vw;
+      font-weight: 700;
+      border: 0.5rem solid #2c2c2c;
+      display: inline-block;
+      margin-top: 35vh;;
+      padding: 0.25rem 1rem;
+      text-transform: uppercase;
+      border-radius: 1rem;
+      font-family: 'Courier';
+      -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+    -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+    margin-left: 10vw;
+
+}
+
+.carousel{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    padding: 2rem;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+    color:#fff;
+    margin-left:15vw;
+    height:35vh;
+    width: 75vw;
+}
+
+.box{
+    display: flex;
+    background-color: #f8f4f4 ;
+    height:60vh;
+    width:50vw;
+    text-align: center;
+
+}
+
+.slick-slide div{
+    margin: 0 1rem;
+}
+
+button.slick-arrow.slick-next{
+    background-color: rgb(0,0,0,.5) ;
+    border-radius: 20px;;
+}
+
+button.slick-arrow.slick-prev{
+    background-color: rgb(0,0,0,.5) ;
+    border-radius: 20px;;
+}
+
+.slick-dots li.slick-active button:before{
+color:rgb(61, 60, 60) !important;
+}
+
+.slick-dots li button:before{
+    color:rgb(226, 51, 80)!important;
+    font-size: 1rem;
+    top:2rem;
+}
+
+.projectImage{
+    height: 40vh;
+    width:10vw;
+}
+
+
+
+.projectImgContainer{
+    border:3px solid black;
+    height:100px;
+    width:5vw;
+}
