@@ -1,28 +1,11 @@
-.stamp{
 
-        transform: rotate(-14deg);
-          color: #2c2c2c;
-          font-size: 4vw;
-          font-weight: 700;
-          border: 0.5rem solid #2c2c2c;
-          display: inline-block;
-          margin-top: 5vh;;
-          padding: 0.25rem 1rem;
-          text-transform: uppercase;
-          border-radius: 1rem;
-          font-family: 'Courier';
-          -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
-        -webkit-mask-size: 944px 604px;
-        mix-blend-mode: multiply;
-        margin-left: 10vw;
-    
-}
 
 .skillsContainer{
-    background-color:rgb(234, 138, 115, .8) ;
-    margin: 0 10vw 0vh 10vw;
+    background-color:rgb(234, 138, 115) ;
+    margin: 0 10vw 10vh 10vw;
     display: flex;
     border-radius: .5vw;
+ 
   
 }
 
@@ -40,7 +23,9 @@
 
 .skillsTitle{
   font-size: 6vh;
-  margin: 0 10vw 0 10vw;
+  color: #313030;;
+  margin: 10vh 10vw 4vh 10vw;
+  border-bottom: 2px solid black;
 }
 
 
@@ -75,3 +60,69 @@
   top: 0px;
   left: 0px;
 }
+
+
+@media screen and (max-width: 600px){
+
+  .skillsTitle{
+    font-size: 3vh;
+    color: #313030;;
+    margin: 10vh 10vw 4vh 10vw;
+    border-bottom: 2px solid black;
+  }
+
+  .skillsContainer{
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .skillsContainer{
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    /* padding: 13px 20px 13px; */
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .skillsContainer{
+
+    /* margin: 0 10vw 10vh 10vw; */
+    display: flex;
+    height: 30vh;
+    border-radius: .5vw;
+ 
+  
+}
+}
+
+@media screen and (max-width: 380px){
+  .skillsContainer{
+    height: 40vh;
+    border-radius: .5vw;
+ 
+  
+}
+}
+
+

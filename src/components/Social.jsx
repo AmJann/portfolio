@@ -1,4 +1,5 @@
 import React from 'react'
+
 import resume from '../images/Amber-J-March2024t.pdf'
 import'../css/socialLinks.css'
 import { Link } from 'react-router-dom'
@@ -20,7 +21,7 @@ function Social() {
             <h1 className='abril-fatface-regular fontSizeTitleName'>Amber Jankowski</h1>
     </div>
         <div>
-            <h3 className='lato-regular fontSizeTitle'>Software engineer</h3>
+            <h3 className='montserrat-alternates-medium fontSizeTitle'>Software engineer</h3>
         </div>
         </div>
     </div>

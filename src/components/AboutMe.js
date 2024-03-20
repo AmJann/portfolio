@@ -14,7 +14,7 @@ function AboutMe() {
           ></img>
         </div>
         <div className="aboutMeContainer">
-          <h3 className="lato-regular paragraph">
+          <h3 className="lato-regular paragraph p1">
             <h1 className="abril-fatface-regular fontSize storyTitle">
               My Story
             </h1>
@@ -26,10 +26,8 @@ function AboutMe() {
             with over 1,500 participants, advancing to the fourth week out of
             five and securing a position among the top 80 software engineers.
           </h3>
-          <h3>
-            _________________________________________________________________
-          </h3>
-          <h3 className="lato-regular paragraph">
+
+          <h3 className="lato-regular paragraph p2">
             <span className="firstLetter">P</span>resently, I am an apprentice
             at Underdog Developers, where I am fortunate to be mentored by some
             of the industry's finest professionals. Engaging in challenging

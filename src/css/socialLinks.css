@@ -1,28 +1,50 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
 .socialLinks{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin-top: 4vh;
+    justify-content: space-evenly;
+    /* margin-top: 4vh; */
 
 }
 .socialButton{
     border-radius: 5vw;
     margin-left: 1vw;
-    height: 5vh;
+    height: 7vh;
     color: #f8f4f4;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
+.socialButton:hover{
+    color: #adadad;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 15px -3px, rgba(0, 0, 0, 0.08) 0px 4px 6px -2px; 
+}
+
 .fontSizeTitleName{
-font-size: 4em;
+font-size: 3.5em;
 text-align: center;
-padding:0 .5em;
 color:#f8f4f4;
 /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
 }
 
 .fontSizeTitle{
-font-size: 3em;
+font-size: 2.5em;
 text-align: center;
 color:#f8f4f4;
 /* background-color: rgb(247, 230, 233); */
@@ -43,47 +65,75 @@ margin-left:30%;
 }
 
 .header{
-    background-image: linear-gradient( rgb(192, 128, 128),rgb(230, 230, 230) );
-}
-
-
-
-.socialButton:before {
-  animation: opacityFallbackOut .5s step-end forwards;
-  backface-visibility: hidden;
-    background-color: #f8f4f4;
-  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: translateZ(0);
-  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
-  width: 100%;
-}
-
-.socialButton:hover:before {
-  animation: opacityFallbackIn 0s step-start forwards;
-  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
-}
-
-.socialButton:after {
-background-color:rgb(234, 138, 115, .8);
-}
-
-.socialButton span {
-  z-index: 1;
-  position: relative;
-}
-
-.socialButton:hover{
-color:rgba(136, 136, 136, 0.8) ;
+    background-image: linear-gradient( rgb(192, 128, 128),rgb(234, 138, 115) );
+    /* background-color:rgb(192, 128, 128) ; */
 }
 
 .subHeaderContainer{
     display: inline-flex;
     justify-content: space-between;
     width:71%;
-    border:1px solid red
 }
+
+@media screen and (max-width: 800px){
+    .socialLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3vh;
+      
+        /* margin-top: 4vh; */
+    
+    }
+    .socialButton{
+        border-radius: 5vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        height: 3vh;
+        color: #f8f4f4;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    }
+    
+    .fontSizeTitleName{
+    font-size: 2em;
+    text-align: center;
+    color:#f8f4f4;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+    }
+    
+    .fontSizeTitle{
+    font-size: 1.5em;
+    text-align: center;
+    color:#f8f4f4;
+    /* background-color: rgb(247, 230, 233); */
+        /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+    }
+    
+    .title{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 0;
+
+    }
+    
+    .header{
+        background-image: linear-gradient( rgb(192, 128, 128),rgb(234, 138, 115) );
+        /* background-color:rgb(192, 128, 128) ; */
+    }
+
+    
+    /* .subHeaderContainer{
+        display: inline-flex;
+        justify-content: space-between;
+        width:71%;
+    } */
+
+}
+

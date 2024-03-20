@@ -11,6 +11,12 @@
     font-style: normal;
   }
 
+  .montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
   .aboutMeContainer{
     flex-direction: column;
    margin:1vh 10vw 0 3vw ;
@@ -21,6 +27,7 @@
 
   .fontSize{
     font-size:6vh;
+    border-bottom: 2px solid black;
   }
    /* .FirstLetter{
     font-size: 2vh;
@@ -61,7 +68,7 @@
    }
 
    .paragraph{
-    font-size: 2.5vh;
+    font-size: 2.25vh;
    }
 
    .pinkPaintStreak{
@@ -71,4 +78,120 @@
     margin-top: 15vh;
     height: 80vh;
     margin-bottom:5vh ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+   }
+
+   .storyTitle{
+    color:#313030;
+   }
+
+   .p1{
+    padding-bottom: 5vh;
+    border-bottom: 1px solid black;
+   }
+
+   .p2{
+    padding-top: 5vh;
+   }
+   
+   @media screen and (max-width: 1200px){
+    .paragraph{
+      font-size: 2vh;
+    }
+    .aboutMeContainer{
+      /* flex-direction: column; */
+     margin:0;
+      text-align:left;
+      border-right: none;
+      padding:2vh 2vw;
+      margin:2vh 2vw;
+    }
+   }
+
+
+   @media screen and (max-width: 800px){
+    .aboutMeContainer{
+      /* flex-direction: column; */
+     margin:0;
+      text-align:left;
+      border-right: none;
+      padding:2vh 2vw;
+      margin:2vh 2vw;
+    }
+  
+    .fontSize{
+      font-size:3vh;
+      border-bottom: 2px solid black;
+    }
+     /* .FirstLetter{
+      font-size: 2vh;
+      font-weight: 600;
+     } */
+  
+     .myImageContainer{
+      margin-left: 25vw;
+      margin-top: 1vh;
+      border-radius: 50vw;
+      background-image: linear-gradient( rgb(192, 128, 128),rgb(230, 230, 230) );
+      border-left:10px solid rgb(192, 128, 128) ;
+      height:min-content;
+      width: min-content;
+      padding:1vw;
+      /* display:none; */
+     }
+     .myImage{
+      /* padding:1em; */
+      width:40vw;
+      border-radius: 50vw;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      /* display:none; */
+     }
+  
+     .imgAboutContainer{
+      display: flex;
+      flex-direction: column;
+      height: 50vh;
+      /* margin-top: 12.5vh; */
+     }
+  
+     .tag{
+      text-align: center;
+      margin:0 30vw 0 20vw;
+      color: rgb(44, 44, 44);
+      font-size: 3vh;
+      background-color: rgb(247, 230, 233);
+      padding:.5vh;
+      margin-bottom: 35vh;
+     }
+  
+     .paragraph{
+      font-size: 1.75vh;
+      margin:0;
+     }
+  
+     .pinkPaintStreak{
+      background-image: url('../images/watercolor-paint-streak.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 15vh;
+      height: 89vh;
+      margin-bottom:5vh ;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+     }
+  
+     .storyTitle{
+      color:#313030;
+     }
+   }
+
+   @media screen and (max-width: 270px){
+    .pinkPaintStreak{
+      background-image: url('../images/watercolor-paint-streak.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 15vh;
+      height: 115vh;
+      margin-bottom:5vh ;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+     }
    }
