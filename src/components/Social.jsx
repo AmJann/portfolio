@@ -1,6 +1,6 @@
 import React from 'react'
 
-import resume from '../images/Amber-J-March2024t.pdf'
+import resume from '../images/Amber-J-March2024.pdf'
 import'../css/socialLinks.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
