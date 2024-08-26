@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import restarauntFinder from "../images/projects/restaraunt-finder.png";
 import hangman from "../images/projects/hangman.png";
 import fnb from "../images/projects/fnb.png";
-import stockWatch from "../images/projects/stockwatch.png";
 import jellyJam from "../images/projects/JellyJam.png";
 import alienInvasion from "../images/projects/alien-invasion-screenshot.png";
 import { Link } from "react-router-dom";
