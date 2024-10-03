@@ -28,8 +28,8 @@ function AboutMe() {
           </h3>
 
           <h3 className="lato-regular paragraph p2">
-            <span className="firstLetter">P</span>resently, I am an apprentice
-            at Underdog Developers, where I am fortunate to be mentored by some
+            <span className="firstLetter">P</span>reviously, I was an apprentice
+            at Underdog Developers, where I was fortunate to be mentored by some
             of the industry's finest professionals. Engaging in challenging
             one-on-one paired programming sessions with senior engineers from
             leading companies has been an invaluable aspect of my learning
